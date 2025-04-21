@@ -34,7 +34,7 @@ p {
 @media (max-width: 768px) {
 p {
   text-align: center;
-    margin: 10px clamp(3px, 8vw, 10px) 10px;
+    margin: 10px clamp(3px, 8vw, 5px) 10px;
 }
   }
 
@@ -118,7 +118,7 @@ section {
 }
 
 #intro .syoukai p {
-margin: 10px clamp(3px, 8vw, 10px) 10px;
+margin: 10px clamp(3px, 8vw, 80px) 10px;
 }
 
 #intro .syoukai img {
@@ -329,6 +329,11 @@ section ol li p {
         display: flex;
     flex-direction: column;
   }
+    .stamp-text p {
+    margin: 20px clamp(3px, 8vw, 5px) 10px;
+  text-align: center; /* ボタンとテキスト中央寄せ */
+}
+    
 }
 
 
