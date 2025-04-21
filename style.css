@@ -119,18 +119,7 @@ section {
 
 /* 自己紹介セクションのテキストスタイル */
 #intro .syoukai p {
-  font-size: clamp(2rem, 2vw, 2.5rem);
-  line-height: 1.8;
-  margin: 10px clamp(3px, 8vw, 5px) 10px;
   text-align: left;
-}
-
-/* スマホ対応で中央揃え */
-@media (max-width: 768px) {
-  #intro .syoukai p {
-    text-align: center;
-    margin: 10px clamp(3px, 8vw, 5px) 10px;
-  }
 }
 
 #intro .syoukai img {
