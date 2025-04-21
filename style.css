@@ -34,7 +34,7 @@ p {
 @media (max-width: 768px) {
 p {
   text-align: center;
-    margin: 10px clamp(3px, 8vw, 30px) 10px;
+    margin: 10px clamp(3px, 8vw, 10px) 10px;
 }
   }
 
