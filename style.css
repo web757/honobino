@@ -329,11 +329,6 @@ section ol li p {
         display: flex;
     flex-direction: column;
   }
-    .stamp-text p {
-    margin: 20px clamp(3px, 8vw, 5px) 10px;
-  text-align: center; /* ボタンとテキスト中央寄せ */
-}
-    
 }
 
 
@@ -347,6 +342,13 @@ section ol li p {
 .stamp-text p {
     margin: 20px clamp(5px, 8vw, 30px) 10px;
   text-align: center; /* ボタンとテキスト中央寄せ */
+}
+
+@media (max-width: 768px) {
+    .stamp-text p {
+    margin: 20px clamp(3px, 8vw, 5px) 10px;
+  text-align: center; /* ボタンとテキスト中央寄せ */
+}
 }
 
 
