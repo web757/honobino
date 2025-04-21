@@ -119,7 +119,18 @@ section {
 
 /* 自己紹介セクションのテキストスタイル */
 #intro .syoukai p {
+  font-size: clamp(2rem, 2vw, 2.5rem);
+  line-height: 1.8;
+  margin: 10px clamp(3px, 8vw, 80px) 10px;  /* 左右マージンを統一 */
   text-align: left;
+}
+
+/* スマホ対応で中央揃えに */
+@media (max-width: 768px) {
+  #intro .syoukai p {
+    text-align: center;
+    margin: 10px clamp(3px, 8vw, 5px) 10px;  /* スマホ用の左右マージン */
+  }
 }
 
 #intro .syoukai img {
@@ -340,17 +351,22 @@ section ol li p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* LINEスタンプセクションの p 統一スタイル */
 .stamp-text p {
-    margin: 20px clamp(5px, 8vw, 30px) 10px;
-  text-align: center; /* ボタンとテキスト中央寄せ */
+  font-size: clamp(2rem, 2vw, 2.5rem);
+  line-height: 1.8;
+  margin: 10px clamp(3px, 8vw, 80px) 10px;
+  text-align: left;
 }
 
+/* スマホでは中央寄せ・余白縮小 */
 @media (max-width: 768px) {
-    .stamp-text p {
-    margin: 20px clamp(3px, 8vw, 5px) 10px;
-  text-align: center; /* ボタンとテキスト中央寄せ */
+  .stamp-text p {
+    text-align: center;
+    margin: 10px clamp(3px, 8vw, 5px) 10px;
+  }
 }
-}
+
 
 
 .stamp-bottan-line {
