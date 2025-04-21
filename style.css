@@ -355,7 +355,7 @@ section ol li p {
 .stamp-text p {
   font-size: clamp(2rem, 2vw, 2.5rem);
   line-height: 1.8;
-  margin: 10px clamp(3px, 8vw, 80px) 10px;
+  margin: 10px clamp(3px, 8vw, 30px) 10px;
   text-align: left;
 }
 
@@ -366,7 +366,6 @@ section ol li p {
     margin: 10px clamp(3px, 8vw, 5px) 10px;
   }
 }
-
 
 
 .stamp-bottan-line {
