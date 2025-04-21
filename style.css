@@ -128,7 +128,7 @@ section {
 /* スマホ対応で中央揃えに */
 @media (max-width: 768px) {
   #intro .syoukai p {
-    text-align: center;
+    text-align: left;
     margin: 10px clamp(3px, 8vw, 5px) 10px;  /* スマホ用の左右マージン */
   }
 }
