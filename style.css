@@ -118,7 +118,7 @@ section {
 }
 
 #intro .syoukai p {
-margin: 10px clamp(3px, 8vw, 80px) 10px;
+margin: 10px clamp(3px, 8vw, 10px) 10px;
 }
 
 #intro .syoukai img {
